@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load unnest_json %}
+
+{% load static %}
+{% load highlight %}
+
+{% block title %}Timeline{% endblock %}
+
+{% block body %}
+
+
+
+    <style>
+
+    </style>
+    <br>
+    <h2>Experts</h2>
+    <br>
+    {% for ea, value in experts.items %}
+        <h3>{{ea}}</h3>
+        {% for e in value %}
+        <div class="card" style="margin-bottom: 20px; margin-left: 40px; margin-right: 40px;">
+            <h3>{{e.user}}</h3>
+            <p>Fame Level: {{e.fame_level_numeric}}</p>
+        </div>
+
+        {% endfor %}
+    
+    {% endfor %}
+    <br><br>
+
+{% endblock %}
