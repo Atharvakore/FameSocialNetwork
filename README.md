@@ -1,4 +1,4 @@
-# FameSocialNetwork - Big Data Engineering Project
+# FameSocialNetwork - A Toy Backend Server
 
 ## Project Overview
 
