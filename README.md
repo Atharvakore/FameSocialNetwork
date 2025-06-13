@@ -113,5 +113,3 @@ This project was developed as part of the Big Data Engineering course at Saarlan
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Feel free to customize this README further based on specific details or additional features of your project.
